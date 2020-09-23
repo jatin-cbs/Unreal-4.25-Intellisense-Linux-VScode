@@ -3,6 +3,7 @@ edit  of c_cpp_properties.json fixing the intellisense in 4.25 unreal engine for
 
 Unreal Engine version 4.25 has a bug with VS code project generation because of which intellisense is not working.. You can edit c_cpp_properties.json in the .vscode directory inside your project to fix the issue.add the following inside the   "defines":[]
 
+```
 "IS_PROGRAM=0",
                 "UE_EDITOR=1",
                 "ENABLE_PGO_PROFILE=0",
