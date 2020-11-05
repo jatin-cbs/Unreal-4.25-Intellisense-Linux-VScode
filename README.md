@@ -300,4 +300,7 @@ Unreal Engine version 4.25 has a bug with VS code project generation because of 
                 "AUDIOMIXERCORE_VTABLE=DLLIMPORT_VTABLE",
                 "AUDIOMIXERCORE_API=",
                 "AUGMENTEDREALITY_VTABLE=DLLIMPORT_VTABLE",
-                "AUGMENTEDREALITY_API="         
+                "AUGMENTEDREALITY_API="    
+```
+
+Rename 3 instances of TESTGAME to your project name.
