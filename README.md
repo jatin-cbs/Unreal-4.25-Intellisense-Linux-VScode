@@ -7,6 +7,8 @@
 ## cd into your Unreal Engine Install directory and apply the patch and compile the change using make.
 
 `cd UnrealEngine`
+
 `git apply pathto/ue4_25-defines-fix.patch`
+
 `make`
 
